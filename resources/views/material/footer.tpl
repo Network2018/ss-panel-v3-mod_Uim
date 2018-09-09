@@ -8,11 +8,11 @@
 
 
 	<!-- js -->
-	<script src="/theme/material/js/jquery.min.js"></script>
-	<script src="//static.geetest.com/static/tools/gt.js"></script>
+	<script src="https://panel-131477-5-212.yuntu.ca/theme/material/js/jquery.min.js"></script>
+	<script src="https://panel-131477-5-212.yuntu.ca/theme/material/js/gt.js"></script>
 
-	<script src="/theme/material/js/base.min.js"></script>
-	<script src="/theme/material/js/project.min.js"></script>
-	<script type="text/javascript" color="217,113,24" opacity="0.8" count="99" src="/assets/js/canvas-nest.min.js"></script>
+	<script src="https://panel-131477-5-212.yuntu.ca/theme/material/js/base.min.js"></script>
+	<script src="https://panel-131477-5-212.yuntu.ca/theme/material/js/project.min.js"></script>
+	<script type="text/javascript" color="217,113,24" opacity="0.8" count="99" src="https://panel-131477-5-212.yuntu.ca/assets/js/canvas-nest.min.js"></script>
 </body>
 </html>
