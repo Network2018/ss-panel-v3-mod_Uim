@@ -5,14 +5,14 @@
       <meta name="keywords" content=""/>
       <meta name="description" content=""/>
       <meta charset="utf-8" />
-      <link rel="shortcut icon" href="/favicon.ico"/>
-      <link rel="bookmark" href="/favicon.ico" type="image/x-icon"/>
+      <link rel="shortcut icon" href="https://panel-main.yuntu.ca/favicon.ico"/>
+      <link rel="bookmark" href="https://panel-main.yuntu.ca/favicon.ico" type="image/x-icon"/>
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-	<link rel="shortcut icon" type="image/ico" href="images/ssr.ico">
-      <link rel="stylesheet" href="/assets/css/main.css" />
+	<link rel="shortcut icon" type="image/ico" href="https://panel-main.yuntu.ca/images/ssr.ico">
+      <link rel="stylesheet" href="https://panel-main.yuntu.ca/assets/css/main.css" />
 
       <noscript>
-        <link rel="stylesheet" href="/assets/css/noscript.css" />
+        <link rel="stylesheet" href="https://panel-main.yuntu.ca/assets/css/noscript.css" />
       </noscript>
   </head>	
 <body>
@@ -33,8 +33,8 @@
 					 <footer id="footer"><p class="copyright">&copy;2014-{date("Y")} {$config["appName"]}</p></footer>
 			</div>
 			<div id="bg"></div>
-			<script src="/assets/js/jquery.min.js"></script>
-			<script src="/assets/js/skel.min.js"></script>
-			<script src="/assets/js/util.js"></script>
-			<script src="/assets/js/main.js"></script>
+			<script src="https://panel-main.yuntu.ca/assets/js/jquery.min.js"></script>
+			<script src="https://panel-main.yuntu.ca/assets/js/skel.min.js"></script>
+			<script src="https://panel-main.yuntu.ca/assets/js/util.js"></script>
+			<script src="https://panel-main.yuntu.ca/assets/js/main.js"></script>
 </body></html>
