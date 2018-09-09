@@ -432,7 +432,7 @@ class URL
         $return_array['obfs_param'] = $user->obfs_param;
         $return_array['group'] = Config::get('appName');
         if($mu_port != 0) {
-            $return_array['group'] .= ' - 单端口';
+            $return_array['group'] .= ' Yuntu_Town';
         }
         return $return_array;
     }
