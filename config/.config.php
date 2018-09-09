@@ -155,7 +155,7 @@ $System_Config['enable_geetest_checkin']='false';       //启用签到验证码
 $System_Config['payment_system']='none';
 
 #codepay码支付
-#wiki地址:https://goo.gl/dRwRDi  http://t.cn/RnsWjtB
+#wiki地址:https://goo.gl/dRwRDi  <a href="http://t.cn/RnsWjtB">http://t.cn/RnsWjtB</a>
 $System_Config['codepay_id']='';       //码支付ID
 $System_Config['codepay_key']='';      //码支付通信密钥
 
