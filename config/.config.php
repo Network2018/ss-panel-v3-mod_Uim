@@ -14,20 +14,20 @@ $System_Config['version']='0';	//仅当涉及【需要修改config以外的文�
 
 
 //基本设置-----------------------------------------------------------------------
-$System_Config['key'] = '1145141919810';			// !!! 瞎 jb 修改此key为随机字符串确保网站安全 !!!
+$System_Config['key'] = 'LF980525';			// !!! 瞎 jb 修改此key为随机字符串确保网站安全 !!!
 $System_Config['debug'] =  'false';  //  正式环境请确保为 false
-$System_Config['appName'] = 'sspanel';             //站点名称
-$System_Config['baseUrl'] = 'http://url.com';            // 站点地址
+$System_Config['appName'] = '云图小镇';             //站点名称
+$System_Config['baseUrl'] = 'https://cp.yuntu.cloud';            // 站点地址
 $System_Config['muKey'] = 'NimaQu';   //用于校验ss-go mu的请求，可以随意修改，但请保持前后端一致
 $System_Config['db_driver'] = 'mysql';		//数据库程序
-$System_Config['db_host'] = 'localhost'; //数据库地址
-$System_Config['db_database'] = 'sspanel';			//数据库名
-$System_Config['db_username'] = 'root';		//数据库用户名
-$System_Config['db_password'] = 'sspanel';			//用户名对应的密码
+$System_Config['db_host'] = 'ha01.lax.rds.codec-cluster.org'; //数据库地址
+$System_Config['db_database'] = '';			//数据库名
+$System_Config['db_username'] = '';		//数据库用户名
+$System_Config['db_password'] = '';			//用户名对应的密码
 
 
 //邮件设置-----------------------------------------------------------------------
-$System_Config['mailDriver'] = 'mailgun';   // mailgun or smtp or sendgrid 选择发送邮件的方式
+$System_Config['mailDriver'] = 'sendgrid';   // mailgun or smtp or sendgrid 选择发送邮件的方式
 
 # mailgun
 $System_Config['mailgun_key'] = '';
@@ -44,8 +44,8 @@ $System_Config['smtp_passsword'] = '';
 $System_Config['smtp_ssl'] = 'true';
 
 # sendgrid
-$System_Config['sendgrid_key'] = '';
-$System_Config['sendgrid_sender'] = '';
+$System_Config['sendgrid_key'] = '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';
+$System_Config['sendgrid_sender'] = 'support@vultr.com';
 
 
 //备份设置-----------------------------------------------------------------------
@@ -54,53 +54,53 @@ $System_Config['auto_backup_passwd']='';	//备份的压缩密码
 
 
 //用户注册设置--------------------------------------------------------------------
-$System_Config['defaultTraffic'] = '1';      				//用户初始流量 单位GB
-$System_Config['user_expire_in_default']='3650';        	//用户账户过期时间，在注册时设置。（天）
-$System_Config['user_class_default']='0';      				//用户注册等级，在注册时设置。
-$System_Config['user_class_expire_default']='24';      		//用户等级过期时间，在注册时设置。（小时）
-$System_Config['user_conn']='0';      						//用户注册客户端数量限制，0为不限制
-$System_Config['user_speedlimit']='0';      				//用户注册速度默认限制，0为不限制
+$System_Config['defaultTraffic'] = '10';      				//用户初始流量 单位GB
+$System_Config['user_expire_in_default']='365';        	//用户账户过期时间，在注册时设置。（天）
+$System_Config['user_class_default']='2';      				//用户注册等级，在注册时设置。
+$System_Config['user_class_expire_default']='2';      		//用户等级过期时间，在注册时设置。（小时）
+$System_Config['user_conn']='2';      						//用户注册客户端数量限制，0为不限制
+$System_Config['user_speedlimit']='100';      				//用户注册速度默认限制，0为不限制
 $System_Config['reg_auto_reset_day']='0';      				//注册时的流量重置日，0为不重置
 $System_Config['reg_auto_reset_bandwidth']='0'; 			//需要重置的流量，0为不重置
-$System_Config['ramdom_group']='0';      					//注册时随机分组，注册时随机分配到的分组，多个分组请用英文半角逗号分隔。
+$System_Config['ramdom_group']='1,2,3';      					//注册时随机分组，注册时随机分配到的分组，多个分组请用英文半角逗号分隔。
 $System_Config['reg_method']='rc4-md5';      				//注册时默认加密方式
-$System_Config['reg_protocol']='origin';      				//注册时默认协议
+$System_Config['reg_protocol']='auth_sha1_v4_compatible';      				//注册时默认协议
 $System_Config['reg_protocol_param']='';      				//注册时默认协议参数
-$System_Config['reg_obfs']='plain';      					//注册时默认混淆方式
-$System_Config['reg_obfs_param']='';      					//注册时默认混淆参数
+$System_Config['reg_obfs']='tls1.2_ticket_fastauth_compatible';      					//注册时默认混淆方式
+$System_Config['reg_obfs_param']='is1.mzstatic.com';      					//注册时默认混淆参数
 $System_Config['reg_forbidden_ip']='127.0.0.0/8,::1/128';   //注册时默认禁止访问IP列表，半角英文逗号分割
-$System_Config['min_port']='10000';      					//用户端口池最小值
-$System_Config['max_port']='65535';      					//用户端口池最大值
+$System_Config['min_port']='5000';      					//用户端口池最小值
+$System_Config['max_port']='6500';      					//用户端口池最大值
 $System_Config['reg_forbidden_port']='';      				//注册时默认禁止访问端口列表，半角英文逗号分割，支持端口段
-$System_Config['mu_suffix']='microsoft.com';     			//单端口多用户混淆参数后缀，可以随意修改，但请保持前后端一致
+$System_Config['mu_suffix']='icloud-content.com';     			//单端口多用户混淆参数后缀，可以随意修改，但请保持前后端一致
 $System_Config['mu_regex']='%5m%id.%suffix';      			//单端口多用户混淆参数表达式，%5m代表取用户特征 md5 的前五位，%id 代表用户id,%suffix 代表上面这个后缀。
 
 #邀请链接
 $System_Config['enable_invite_code']='false';   			//是否强制开启邀请，为true则注册必须使用邀请链接，且邀请人等级为0时邀请链接不可用
-$System_Config['inviteNum'] = '10';      					//注册后的邀请链接可用次数
+$System_Config['inviteNum'] = '5';      					//注册后的邀请链接可用次数
 $System_Config['invite_get_money']='1';      				//新用户通过私人邀请链接注册时，获得奖励金额（作为初始资金）
-$System_Config['invite_price']='-1';    					//用户购买邀请码所需要的价格，价格小于0时视为不开放购买
+$System_Config['invite_price']='1';    					//用户购买邀请码所需要的价格，价格小于0时视为不开放购买
 
 #邮箱验证
-$System_Config['enable_email_verify']='false';      		//是否启用注册邮箱验证码
+$System_Config['enable_email_verify']='true';      		//是否启用注册邮箱验证码
 $System_Config['email_verify_ttl']='3600';      			//邮箱验证码有效期
 $System_Config['email_verify_iplimit']='10';      			//验证码有效期内，单IP可请求验证码次数
 
 
 //已注册用户设置------------------------------------------------------------------
 #基础
-$System_Config['checkinMin'] = '1';       					//用户签到最少流量 单位MB
-$System_Config['checkinMax'] = '50';       					//用户签到最多流量
+$System_Config['checkinMin'] = '-1024';       					//用户签到最少流量 单位MB
+$System_Config['checkinMax'] = '1024';       					//用户签到最多流量
 $System_Config['enable_auto_clean_uncheck']='false';      	//没签到的0级用户自动清理开关
 $System_Config['enable_auto_clean_uncheck_days']='7';      	//自动清理多少天没签到的0级用户
 $System_Config['auto_clean_min_money']='1';      			//自动清理时余额低于多少的0级用户
-$System_Config['enable_auto_clean_unused']='false';      	//未使用的0级用户自动清理开关
+$System_Config['enable_auto_clean_unused']='true';      	//未使用的0级用户自动清理开关
 $System_Config['enable_auto_clean_unused_days']='30';		//自动清理多少天没使用的0级用户
-$System_Config['code_payback']='20';      					//充值返利百分比
-$System_Config['invite_gift']='2';      					//邀请新用户获得流量奖励，单位G
+$System_Config['code_payback']='15';      					//充值返利百分比
+$System_Config['invite_gift']='10';      					//邀请新用户获得流量奖励，单位G
 $System_Config['enable_bought_reset']='true';      			//购买时是否重置流量
-$System_Config['port_price']='-1';    						//用户随机重置端口所需要的价格，价格小于0时视为不开放购买
-$System_Config['port_price_specify']='-1';    				//用户指明钦定端口所需要的价格，价格小于0时视为不开放购买
+$System_Config['port_price']='1';    						//用户随机重置端口所需要的价格，价格小于0时视为不开放购买
+$System_Config['port_price_specify']='10';    				//用户指明钦定端口所需要的价格，价格小于0时视为不开放购买
 
 #高级
 $System_Config['enable_donate']='false';      				//是否开启用户捐赠功能（所有收入将被公开）
@@ -135,10 +135,10 @@ $System_Config['crisp_id']='null';      	 				//客服系统ID ID查看路径：
 $System_Config['enable_ticket']='true';    	 				//是否开启工单系统
 
 #站长联系方式设置
-$System_Config['enable_admin_contact']='false';    			//是否开启站长联系方式
-$System_Config['admin_contact1'] = 'QQ：1233456';			//QQ、邮箱、微信仅用于举例
-$System_Config['admin_contact2'] = '邮箱123456@qq.com';		//也可以写电话、tg等其他联系方式
-$System_Config['admin_contact3'] = '微信～123456';			//没有格式要求，想怎么写就怎么写，可留空
+$System_Config['enable_admin_contact']='true';    			//是否开启站长联系方式
+$System_Config['admin_contact1'] = 'Telegram 群组：https://t.me/Yuntu_Network';			//QQ、邮箱、微信仅用于举例
+$System_Config['admin_contact2'] = 'Telegram 公告：https://t.me/yuntu_official';		//也可以写电话、tg等其他联系方式
+$System_Config['admin_contact3'] = '咨询邮箱： info@yuntu.ca';			//没有格式要求，想怎么写就怎么写，可留空
 
 
 //验证码设置---------------------------------------------------------------------
@@ -168,14 +168,14 @@ $System_Config['doiampay']=[
     ],
     'mchdata' => [
         'wepay'=>[
-            'mchid' => 188888888,   // 商户号
-            'phone' => 18888888888, //手机号
-            'token' => "example"    //安全验证码
+            'mchid' => 1535190026,   // 商户号
+            'phone' => 13462290695, //手机号
+            'token' => "MZyl1fzZthN2i2wNFChOakPe6V5L0Gni"    //安全验证码
         ],
         'alipay'=>[
-            'mchid' => 188888888,   // 商户号
-            'phone' => 188888888,   //手机号
-            'token' => "188888888"  // 安全验证码
+            'mchid' => 1535190003,   // 商户号
+            'phone' => 13462290695,   //手机号
+            'token' => "ND18yd1xYHCCnX1JC5yJSwydRoK40L63"  // 安全验证码
         ],
         'qqpay'=>[
             'mchid' => 188888888,   // 商户号
@@ -217,15 +217,15 @@ $System_Config['finance_public']='false';    	//财务报告是否向Telegram群
 
 
 //国旗图标显示
-$System_Config['enable_flag']='false';    		//启用该项之前务必先仔细阅读教程
+$System_Config['enable_flag']='true';    		//启用该项之前务必先仔细阅读教程
 $System_Config['flag_regex']='/.*?(?=\s)/';     //从站点全名中匹配国家/地区的正则表达式(php版)
 
 
 //节点检测
 #GFW检测
-$System_Config['enable_detect_gfw']='false';
+$System_Config['enable_detect_gfw']='true';
 $System_Config['detect_gfw_interval']='3600';		//检测间隔，单位：秒，低于推荐值会爆炸
-$System_Config['detect_gfw_port']='22';			//所有节点服务器都打开的TCP端口，常用的为22（SSH端口）
+$System_Config['detect_gfw_port']='1000';			//所有节点服务器都打开的TCP端口，常用的为22（SSH端口）
 $System_Config['detect_gfw_url']='https://cn-qz-tcping.torch.njs.app/{ip}/{port}';		//检测节点是否被gfw墙了的API的URL
 $System_Config['detect_gfw_count']='3';		//尝试次数
 
@@ -249,8 +249,8 @@ $System_Config['Speedtest_duration']='6';      		//显示多长时间的测速�
 $System_Config['login_warn']='false';      			//异地登陆提示
 $System_Config['timeZone'] = 'PRC';        			// PRC 天朝时间  UTC 格林时间
 $System_Config['pwdMethod'] = 'sha256';       		// 密码加密   可选 md5,sha256
-$System_Config['db_charset'] = 'utf8';
-$System_Config['db_collation'] = 'utf8_general_ci';
+$System_Config['db_charset'] = 'utf8mb4';
+$System_Config['db_collation'] = 'utf8mb4_general_ci';
 $System_Config['db_prefix'] = '';
 
 #aws
