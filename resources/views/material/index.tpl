@@ -13,11 +13,11 @@
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
         <meta charset="utf-8" />
-        <link rel="shortcut icon" href="/favicon.ico"/>
-        <link rel="bookmark" href="/favicon.ico"/>
+        <link rel="shortcut icon" href="https://panel-main.yuntu.ca/favicon.ico"/>
+        <link rel="bookmark" href="https://panel-main.yuntu.ca/favicon.ico"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-		<link rel="stylesheet" href="/assets/css/main.css"/>
-        <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>   
+	<link rel="stylesheet" href="https://panel-main.yuntu.ca/assets/css/main.css"/>
+        <noscript><link rel="stylesheet" href="https://panel-main.yuntu.ca/assets/css/noscript.css" /></noscript>   
   </head>
   
        <body>
@@ -109,7 +109,7 @@
 							  <li><a href="/ssr-download/ssr-mac.dmg" class="icon fa-apple"><span class="label">Mac</span> Mac</a></li>
 							  <li><a href="/ssr-download/ssr-android.apk" class="icon fa-android"><span class="label">Android</span> Android</a></li>
 							  <li><a href="#ios" class="icon fa-apple"><span class="label">iOS</span> iOS</a></li>
-                              <li><a href="/ssr-download/SSTap.7z" class="icon fa-gamepad"><span class="label">Win游戏专用</span> Win游戏专用</a></li>
+                                                          <li><a href="/ssr-download/SSTap.7z" class="icon fa-gamepad"><span class="label">Win游戏专用</span> Win游戏专用</a></li>
                             
 	                         </ul>
                              </article>
@@ -158,9 +158,9 @@
                 <!-- BG -->
 			<div id="bg"></div>
 	        	<!-- Scripts -->
-			<script src="/assets/js/jquery.min.js"></script>
-			<script src="/assets/js/skel.min.js"></script>
-			<script src="/assets/js/util.js"></script>
-         <script src="/assets/js/main.js"></script>
+			<script src="https://panel-main.yuntu.ca/assets/js/jquery.min.js"></script>
+			<script src="https://panel-main.yuntu.ca/assets/js/skel.min.js"></script>
+			<script src="https://panel-main.yuntu.ca/assets/js/util.js"></script>
+                        <script src="https://panel-main.yuntu.ca/assets/js/main.js"></script>
 	</body>
 </html>
