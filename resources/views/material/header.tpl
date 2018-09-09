@@ -46,8 +46,8 @@
 					</ul>
 				{else}
 					<span class="access-hide">未登录</span>
-             			 <span class="icon icon-cd margin-right">account_circle</span>
-				<!--	<span class="avatar avatar-sm"><img alt="alt text for John Smith avatar" src="/theme/material/images/users/avatar-001.jpg"></span> -->
+             			<!--    <span class="icon icon-cd margin-right">account_circle</span>  -->
+					<span class="avatar avatar-sm"><img alt="alt text for John Smith avatar" src="https://panel-131477-5-212.yuntu.ca/theme/material/images/users/Codec.jpg"></span> 
 					</a>
 					<ul class="dropdown-menu dropdown-menu-right">
 						<li>
@@ -65,7 +65,7 @@
 	<nav aria-hidden="true" class="menu menu-left nav-drawer nav-drawer-md" id="ui_menu" tabindex="-1">
 		<div class="menu-scroll">
 			<div class="menu-content">
-				<a class="menu-logo" href="/"><i class="icon icon-lg">language</i>&nbsp;点击返回官网</a>
+				<a class="menu-logo" href="/"><i class="icon icon-lg">language</i>&nbsp;云图小镇</a>
 				<ul class="nav">
 
 					{if $user->isLogin}
@@ -82,14 +82,16 @@
 					<li>
 						<a  href="/auth/register"><i class="icon icon-lg">person_add</i>&nbsp;注册</a>
 					</li>
-                  	<li>
-				     <a  href="/password/reset"><i class="icon icon-lg">security</i>&nbsp;重置密码</a>
+                  	                <li>
+				                <a  href="/password/reset"><i class="icon icon-lg">security</i>&nbsp;重置密码</a>
 					</li>
-
-                  <li>
-                    <div class="divcss5">
-    					<img  src="/images/Ambassador-menu.png" width="230" height="310"/>
-                      </div>
+                                        <li>
+						<a href="/staff"><i class="icon icon-lg">person_pin</i>&nbsp;开发者名单</a>
+					</li>
+                                        <li>
+                                                <div class="divcss5">
+    					             <img  src="https://panel-main.yuntu.ca/images/Ambassador-menu.png" width="230" height="310"/>
+                                                </div>
 					</li>
 					{/if}
 				</ul>
