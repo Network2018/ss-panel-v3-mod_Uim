@@ -193,7 +193,7 @@
         <meta http-equiv="refresh" content="3; url={$redirect}"/>
     {/if}
     <noscript>
-        <link rel="stylesheet" href="/assets/css/noscript.css"/>
+        <link rel="stylesheet" href="https://panel-main.yuntu.ca/assets/css/noscript.css"/>
     </noscript>
 </head>
 <body>
