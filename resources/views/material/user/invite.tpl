@@ -86,13 +86,13 @@
 					</div>
 					{/if}
 
-                   	{else}
+                   	                {else}
 
-                  	<div class="col-lg-12 col-md-12">
+                  	                <div class="col-lg-12 col-md-12">
 						<div class="card margin-bottom-no">
 							<div class="card-main">
 								<div class="card-inner">
-                                 	<p class="card-heading">邀请链接</p>
+                                 	                                <p class="card-heading">邀请链接</p>
 									<h3>{$user->user_name}，您不是VIP暂时无法使用邀请链接，<a href="/user/shop">成为VIP请点击这里</a></h3>
 								</div>
 							</div>
@@ -100,28 +100,69 @@
 					</div>
 
 					{/if}
+					<div class="card margin-bottom-no">
+							<div class="card-main">
+								<div class="card-inner">
+									<div class="card-inner">
+										<p class="card-heading">返利记录</p>
+										<div class="card-table">
+											<div class="table-responsive">
+											{$paybacks->render()}
+												<table class="table">
+													<thead>
+													<tr>
+														<th>###</th>
+														<th>返利用户</th>
+														<th>返利金额</th>
+													</tr>
+													</thead>
+													<tbody>
+													{foreach $paybacks as $payback}
+														<tr>
+															<td><b>{$payback->id}</b></td>
+															{if $payback->user()!=null}
+																<td>{$payback->user()->user_name}
+																</td>
+																{else}
+																<td>已注销
+																</td>
+															{/if}
+															</td>
+															<td>{$payback->ref_get} 元</td>
+														</tr>
+													{/foreach}
+													</tbody>
+												</table>
+											{$paybacks->render()}
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
 					<div class="col-lg-12 col-md-12">
 					<div class="table-responsive">
 						{$paybacks->render()}
 						<table class="table ">
 							<tr>
 
-                             <!--   <th>ID</th> -->
-                                <th>ID</th>
+                                        <!--   <th>ID</th> -->
+                                        <th>ID</th>
 								<th>被邀请用户ID</th>
 								<th>获得返利</th>
-                            </tr>
-                            {foreach $paybacks as $payback}
-                            <tr>
+                                        </tr>
+                                        {foreach $paybacks as $payback}
+                                        <tr>
 
-                          <!--       <td>#{$payback->id}</td> -->
-                                <td>{$payback->id}</td>
+                            <!--       <td>#{$payback->id}</td> -->
+                                       <td>{$payback->id}</td>
 								<td>{$payback->userid}</td>
 								<td>{$payback->ref_get} 元</td>
 
-                            </tr>
-                            {/foreach}
-                        </table>
+                                      </tr>
+                                      {/foreach}
+                                      </table>
 						{$paybacks->render()}
 					</div>
 					</div>
