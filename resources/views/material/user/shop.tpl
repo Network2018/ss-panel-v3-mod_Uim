@@ -62,11 +62,11 @@
 							<div class="modal-content">
 								<div class="modal-heading">
 									<a class="modal-close" data-dismiss="modal">×</a>
-									<h2 class="modal-title">您有优惠码吗？</h2>
+									<h2 class="modal-title">云图小镇提醒您输入优惠码</h2>
 								</div>
 								<div class="modal-inner">
 									<div class="form-group form-group-label">
-										<label class="floating-label" for="coupon">有的话，请在这里输入。没有的话，直接确定吧</label>
+										<label class="floating-label" for="coupon">一般是没有的，如果有的话，在公告、广播频道和邮件。</label>
 										<input class="form-control" id="coupon" type="text">
 									</div>
 								</div>
