@@ -39,7 +39,7 @@
 									<div class="card-inner margin-bottom-no">
 										<div id="log_chart" style="height: 300px; width: 100%;"></div>
                                       
-										<script src="/assets/js/canvasjs.min.js"> </script>
+										<script src="https://panel-131477-5-212.yuntu.ca/assets/js/canvasjs.min.js"> </script>
 											
 										<script type="text/javascript">
 											window.onload = function () {
