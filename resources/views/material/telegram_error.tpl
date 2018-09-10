@@ -5,10 +5,10 @@
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <meta charset="utf-8"/>
-    <link rel="shortcut icon" href="/favicon.ico"/>
-    <link rel="bookmark" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://panel-main.yuntu.ca/favicon.ico"/>
+    <link rel="bookmark" href="https://panel-main.yuntu.ca/favicon.ico" type="image/x-icon"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <link rel="shortcut icon" type="image/ico" href="images/ssr.ico">
+    <link rel="shortcut icon" type="image/ico" href="https://panel-main.yuntu.ca/images/ssr.ico">
 	<style>
         /*! Spectre.css v0.5.0 | MIT License | github.com/picturepan2/spectre */
 
