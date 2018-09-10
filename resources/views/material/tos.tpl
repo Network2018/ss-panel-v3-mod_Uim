@@ -5,12 +5,12 @@
         <meta name="keywords" content="{$config["appName"]}"/>
         <meta name="description" content="{$config["appName"]}"/>
         <meta charset="utf-8" />
-        <link rel="shortcut icon" href="/favicon.ico"/>
-        <link rel="bookmark" href="/favicon.ico"/>
+        <link rel="shortcut icon" href="https://panel-131477-5-212.yuntu.ca/favicon.ico"/>
+        <link rel="bookmark" href="https://panel-131477-5-212.yuntu.ca/favicon.ico"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-		<link rel="stylesheet" href="/assets/css/main.css"/>
+		<link rel="stylesheet" href="https://panel-131477-5-212.yuntu.ca/assets/css/main.css"/>
         <link href="/bootstrap" type="text/html" rel="stylesheet">
-        <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>   
+        <noscript><link rel="stylesheet" href="https://panel-131477-5-212.yuntu.ca/assets/css/noscript.css" /></noscript>   
   </head>
   
        <body>
@@ -81,23 +81,23 @@
 						</nav>
                  
              
-              <!--首页结束-->
+                      <!--首页结束-->
 					<div id="main">
                      
                       <!--全部标签结束-->
                               </div>
-                     <!-- 版权底部 -->
+                      <!-- 版权底部 -->
                       <footer id="footer">
-                   <p class="copyright">&copy;2015-{date("Y")} {$config["appName"]}</p>
+                              <p class="copyright">&copy;2016-{date("Y")} {$config["appName"]}</p>
                       </footer>
-              <!-- 版权结束 -->
+                      <!-- 版权结束 -->
 			 </div>
-                <!-- BG -->
+                       <!-- BG -->
 			<div id="bg"></div>
 	        	<!-- Scripts -->
-			<script src="/assets/js/jquery.min.js"></script>
-			<script src="/assets/js/skel.min.js"></script>
-			<script src="/assets/js/util.js"></script>
-         <script src="/assets/js/main.js"></script>
+			<script src="https://panel-131477-5-212.yuntu.ca/assets/js/jquery.min.js"></script>
+			<script src="https://panel-131477-5-212.yuntu.ca/assets/js/skel.min.js"></script>
+			<script src="https://panel-131477-5-212.yuntu.ca/assets/js/util.js"></script>
+                        <script src="https://panel-131477-5-212.yuntu.ca/assets/js/main.js"></script>
 	</body>
 </html>
