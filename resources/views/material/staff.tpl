@@ -1,26 +1,26 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>{$config["appName"]}</title>
+     <head>
+	<title>{$config["appName"]}</title>
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
         <meta charset="utf-8" />
-        <link rel="shortcut icon" href="/favicon.ico"/>
-        <link rel="bookmark" href="/favicon.ico"/>
+        <link rel="shortcut icon" href="https://panel-main.yuntu.ca/favicon.ico"/>
+        <link rel="bookmark" href="https://panel-main.yuntu.ca/favicon.ico"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-		<link rel="stylesheet" href="/assets/css/main.css"/>
+	<link rel="stylesheet" href="https://panel-main.yuntu.ca/assets/css/main.css"/>
         <link href="/bootstrap" type="text/html" rel="stylesheet">
-        <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>   
-  </head>
+        <noscript><link rel="stylesheet" href="https://panel-main.yuntu.ca/assets/css/noscript.css" /></noscript>   
+     </head>
   
        <body>
-			<div id="wrapper">
+	<div id="wrapper">
               <!--首页开始-->
-                          <div class="content">
-							<div class="inner">
+             <div class="content">
+		 <div class="inner">
 								<h1>staff</h1>
-                          </div>
-                        </div>
+                 </div>
+             </div>
 <!--
 I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
 It will not impact the appearance and can give developers a lot of support :)
@@ -48,7 +48,7 @@ It will not impact the appearance and can give developers a lot of support :)
 										<p>您当前所访问的站点使用的是下面所提到的开源程序。您能看到这个页面仅代表这个站点使用了本程序，其使用过程中发生的一切问题需要其自行解决，本程序不承担任何责任。</p>
 
 
-                                   <div class="table-wrapper">
+                                                                                <div class="table-wrapper">
 										<table>
 
 											<tbody>
@@ -68,7 +68,7 @@ It will not impact the appearance and can give developers a lot of support :)
 													<td>作画</td>
 													<td><a href="https://github.com/Daemonite/">Daemonite</a>,<a href="https://www.zhaoj.in">（曾经的）glzjin</a>     ,<a href="https://github.com/galaxychuck">galaxyq</a></td>
 												</tr>
-                                              <tr>
+                                                                                                <tr>
 													<td>staff监督</td>
 													<td>感谢<a href="https://t.me/Anankke">Anankke</a>为守护staff做出的贡献</td>
 												</tr>
@@ -76,44 +76,44 @@ It will not impact the appearance and can give developers a lot of support :)
 													<td>出演</td>
 													<td><a href="https://www.zhaoj.in">（曾经的）glzjin</a>，<a href="http://mengyang.wang/">mengyang</a>，<a href="http://tony.ecy.ren/">tony</a></td>
 												</tr>
-                                              <tr>
+                                                                                                <tr>
 													<td>鸣谢</td>
 													<td>所有被引用过代码的同学，以及所有提交过issue的同学。当然，还有在使用这份程序的你我Ta。</td>
 												</tr>
-                                               <tr>
+                                                                                                <tr>
 													<td>本程序的参与人员列表</td>
 													<td>此列表为参与到 <a href="https://github.com/NimaQu/ss-panel-v3-mod_UIChanges">ss-panel-v3 glzjin mod UIChanges</a> 中的人员，在此表示感谢。</td>
 												</tr>
                                               
 											</tbody>
 										</table>
-									</div>
+									        </div>
                                         
 
                            <nav>
-							<ul>  
-                          <a href="javascript:history.back();" class="button">返回上一页</a>
+			   <ul>  
+                                <a href="javascript:history.back();" class="button">返回上一页</a>
                            </ul>
-						</nav>
+			   </nav>
                  
              
               <!--首页结束-->
-					<div id="main">
+			<div id="main">
                      
-                      <!--全部标签结束-->
-                              </div>
-                     <!-- 版权底部 -->
-                      <footer id="footer">
-                   <p class="copyright">&copy;2015-2018 {$config["appName"]}</p>
-                      </footer>
+              <!--全部标签结束-->
+                        </div>
+              <!-- 版权底部 -->
+                        <footer id  footer">
+                                <p class="copyright">&copy;2015-2018 {$config["appName"]}</p>
+                        </footer>
               <!-- 版权结束 -->
 			 </div>
-                <!-- BG -->
+              <!-- BG -->
 			<div id="bg"></div>
 	        	<!-- Scripts -->
-			<script src="/assets/js/jquery.min.js"></script>
-			<script src="/assets/js/skel.min.js"></script>
-			<script src="/assets/js/util.js"></script>
-         <script src="/assets/js/main.js"></script>
-	</body>
+			<script src="https://panel-main.yuntu.ca/assets/js/jquery.min.js"></script>
+			<script src="https://panel-main.yuntu.ca/assets/js/skel.min.js"></script>
+			<script src="https://panel-main.yuntu.ca/assets/js/util.js"></script>
+                        <script src="https://panel-main.yuntu.ca/assets/js/main.js"></script>
+	      </body>
 </html>
